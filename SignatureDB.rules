@@ -1,0 +1,8 @@
+TCP:2e 63 6d 64:.cmd File Execution Attempt
+TCP:2e 62 61 74:.bat File Execution Attempt
+TCP:2e 65 78 65:.exe File Execution Attempt
+TCP:54 72 69 64 65 6e 74:Malicious agent request by Malware
+TCP:4d 6f 7a 69 6c 6c 61 2f 34 2e 30 20 28 63 6f 6d 70 61 74 69 62 6c 65 3b 20 4d 53 49 45 20 36 2e 30 3b 20 57 69 6e 64 6f 77 73 20 4e 54 20 35 2e 31 3b 20 53 56 31 29:Malicious agent request by Botnet/Adware  
+TCP:4d 6f 7a 69 6c 6c 61 2f 35 2e 30 20 57 69 6e 49 6e 65 74:Malicious agent request by Generic Trojan
+TCP:63 75 72 6c:Malicious agent request by Curl
+UDP:73 6d 61 72 74 2d 66 61 78 03 63 6f 6d:Resolving Malicious Host detected at smart-fax.com

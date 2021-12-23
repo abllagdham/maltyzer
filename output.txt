@@ -1,0 +1,15 @@
+----------------------------- RESULT ------------------------------
+
+----------------------- Idenitified Attacks -----------------------
+{'SrcIP': '10.6.27.102', 'SrcPort': 49159, 'DstIP': '107.180.50.162', 'DstPort': 80, 'Proto': 6, 'Msg': 'Malicious agent request by Malware'}
+{'SrcIP': '10.6.27.102', 'SrcPort': 49162, 'DstIP': '107.180.50.162', 'DstPort': 80, 'Proto': 6, 'Msg': '.exe File Execution Attempt'}
+{'SrcIP': '10.6.27.102', 'SrcPort': 56406, 'DstIP': '10.6.27.1', 'DstPort': 53, 'Proto': 17, 'Msg': 'Resolving Malicious Host detected at smart-fax.com'}
+{'SrcIP': '10.6.27.1', 'SrcPort': 53, 'DstIP': '10.6.27.102', 'DstPort': 56406, 'Proto': 17, 'Msg': 'Resolving Malicious Host detected at smart-fax.com'}
+{'SrcIP': '10.6.27.102', 'SrcPort': 53770, 'DstIP': '10.6.27.1', 'DstPort': 53, 'Proto': 17, 'Msg': 'Resolving Malicious Host detected at smart-fax.com'}
+{'SrcIP': '10.6.27.1', 'SrcPort': 53, 'DstIP': '10.6.27.102', 'DstPort': 53770, 'Proto': 17, 'Msg': 'Resolving Malicious Host detected at smart-fax.com'}
+
+
+--------------------------- Files Results -------------------------
+OrderedDict([('Pkt', '43'), ('Time', '14.272449'), ('SrcIP', '10.6.27.102'), ('SrcPort', '49157'), ('DstIP', '23.63.254.163'), ('DstPort', '80'), ('Proto', 'HTTP'), ('Size', '151'), ('Method', 'GET'), ('File', '/ncsi.txt'), ('Version', 'HTTP/1.1'), ('Hash', '33bf88d5b82df3723d5863c7d23445e345828904'), ('isMalicious', 'Not found')])
+OrderedDict([('Pkt', '71'), ('Time', '29.202755'), ('SrcIP', '10.6.27.102'), ('SrcPort', '49159'), ('DstIP', '107.180.50.162'), ('DstPort', '80'), ('Proto', 'HTTP'), ('Size', '343'), ('Method', 'GET'), ('File', '/Documents/Invoice&MSO-Request.doc'), ('Version', 'HTTP/1.1'), ('Hash', 'a66bd2557016377dfb95a87c21180e52b23d2e4e'), ('isMalicious', 'Malicious')])
+OrderedDict([('Pkt', '356'), ('Time', '38.470797'), ('SrcIP', '10.6.27.102'), ('SrcPort', '49162'), ('DstIP', '107.180.50.162'), ('DstPort', '80'), ('Proto', 'HTTP'), ('Size', '361'), ('Method', 'GET'), ('File', '/knr.exe'), ('Version', 'HTTP/1.1'), ('Hash', '0d5c820002cf93384016bd4a2628dcc5101211f4'), ('isMalicious', 'Malicious')])

@@ -1,4 +1,4 @@
-# maltyzer
+# Maltyzer
 ## Malicious Traffic Analyzer
 
 This tool was build to help reduce the time consumed on investigating pcap file for malicious traffic. It has two main functions file extraction and Malicious traffic detection.

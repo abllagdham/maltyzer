@@ -5,7 +5,7 @@
 #                       Tool Name: Malicious Packet Analyzer (Maltyzer)
 #                       Description: This tool is used to process a pcap file and
 #                                       try to idenify malicious traffic and files. 
-#                       Author: Lolowa Nasser
+#                       Author: Amin Bllagdham
 #                       Creation date: 1 Nov 2021
 #                       Dependiences: Scapy
 #                                       (pip install scapy)
